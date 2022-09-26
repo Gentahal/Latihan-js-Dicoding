@@ -21,20 +21,21 @@
 // }
 
 // //!If else
-// let score = 100;
-// let result = ""
+let score = 90;
 
-// if(score >= 90) {
-//     result = "Selamat! Anda mendapatkan nilai A."
-// } else if(score >= 80) {
-//     result = "Anda mendapatkan nilai B."
-// } else if(score >= 70) {
-//     result = "Anda mendapatkan nilai C."
-// } else if(score >= 60) {
-//     result = "Anda mendapatkan nilai D."
-// }  else if(score <= 60) {
-//     result = "Anda mendapatkan nilai E."
-// }
+if(score >= 90) {
+    result = "Congratulation!! you get value A"
+} else if(score >= 80) {
+    result = "you get value B."
+} else if(score >= 70) {
+    result = "you get value C."
+} else if(score >= 60) {
+    result = "you get value D."
+}  else if(score <= 60) {
+    result = "you get value E."
+}
+
+console.log(result)
 
 
 // console.log(result);
@@ -63,7 +64,7 @@
 //     console.log("It's false");
 // }
 
-const name = 'Dicoding';
-const language = 'JavaScript';
+// const name = 'Dicoding';
+// const language = 'JavaScript';
 
-console.log(`Hello $name. Welcome to $language!`);
+// console.log(`Hello $name. Welcome to $language!`);
