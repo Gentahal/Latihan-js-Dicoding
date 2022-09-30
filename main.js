@@ -21,21 +21,21 @@
 // }
 
 // //!If else
-let score = 90;
+// let score = 90;
 
-if(score >= 90) {
-    result = "Congratulation!! you get value A"
-} else if(score >= 80) {
-    result = "you get value B."
-} else if(score >= 70) {
-    result = "you get value C."
-} else if(score >= 60) {
-    result = "you get value D."
-}  else if(score <= 60) {
-    result = "you get value E."
-}
+// if(score >= 90) {
+//     result = "Congratulation!! you get value A"
+// } else if(score >= 80) {
+//     result = "you get value B."
+// } else if(score >= 70) {
+//     result = "you get value C."
+// } else if(score >= 60) {
+//     result = "you get value D."
+// }  else if(score <= 60) {
+//     result = "you get value E."
+// }
 
-console.log(result)
+// console.log(result)
 
 
 // console.log(result);
@@ -68,3 +68,46 @@ console.log(result)
 // const language = 'JavaScript';
 
 // console.log(`Hello $name. Welcome to $language!`);
+
+// class MyCustomError extends Error {
+//     constructor(message) {
+//         super(message);
+//         this.name = "MyError";
+//     }
+// }
+
+// try {
+//     throw new MyCustomError("This is an error");
+// } catch (e) {
+//     console.log(e.message);
+// }
+
+// try {
+//     const arr = [1, 2, 3, 4];
+//     for (let i = 0; i <= 4; i++) {
+//         console.log(arr[i]);
+//     }
+// } catch(e) {
+//     console.log("Out of bounds");
+// }
+
+// let myString = "";
+
+// try {
+//     myString += "a";
+//     throw Error();
+// } catch(e) {
+//     myString += "b";
+// } finally {
+//     myString += "c";
+//     throw Error();
+//     myString += "d";
+// }
+
+// console.log(myString);
+
+console.log(1);
+console.log(3);
+console.log(5);
+console.log(7);
+console.log(9);

@@ -9,3 +9,20 @@
 //   * - Fill the result variable with the value: 'You got the value D.'
 //   * 5. If the score is below 60:
 //   * - Fill the result variable with the value: 'You got the value E.'
+
+let score = '50';
+
+if (score >= 90) {
+    result = 'Conratulations! you get an A.'
+} else if (score >= 80) {
+    result = 'You got the value B.'
+} else if (score >= 70) {
+    result = 'You got the value C'
+} else if (score >= 60) {
+    result = 'You got the value D'
+} else if (score <= 60) {
+    result = 'You got the value E'
+}
+
+console.log(result)
+
